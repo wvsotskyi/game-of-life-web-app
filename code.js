@@ -238,9 +238,9 @@ ocument.addEventListener("load", function() {
         return count;
     }
 
-    window.onload = initialize;
 });
 
+window.onload = initialize;
 
 
 // Start everything

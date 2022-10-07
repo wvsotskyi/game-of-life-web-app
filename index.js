@@ -1,6 +1,14 @@
 import * as http from 'node:http';
+import * as fs from `node:fs`;
 
-http.createServer(function(request, response) {
-    response.writeHead(200, { "Content-Type": "text/plain" })
-    response.end(`hello world\n`)
-}).listen(process.env.PORT)
+
+fs.readFile('./index.html', function(err, html) {
+    if (err) {
+        throw err;
+    }
+    http.createServer(function(request, response) {
+        response.writeHeader(200, { "Content-Type": "text/html" });
+        response.write(html);
+        response.end();
+    }).listen(rocess.env.PORT);
+});

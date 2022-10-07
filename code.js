@@ -3,7 +3,6 @@ var cols = 35;
 
 const webApp = window.Telegram.WebApp;
 
-
 var playing = false;
 
 var grid = new Array(rows);

@@ -2,41 +2,29 @@ body {
     padding: 20px;
     background-color: var(--tg-theme-bg-color);
     color: var(--tg-theme-text-color);
-}
-
-#gridContainer {
-    padding-bottom: 10px;
+    overflow: hidden;
 }
 
 table {
-    background-color: lightgrey;
+    background-color: var(--tg-theme-bg-color);
     border-spacing: 0;
 }
 
 td {
-    border: 1px solid white;
+    border: 1px solid darkgray;
     width: 10px;
     height: 10px;
 }
 
 span {
-    color: #222;
+    color: white;
 }
-
-
-/* #start,
-#clear,
-#random {
-    padding: .75em;
-    border-radius: 5px;
-    border: none;
-    background: linear-gradient( to bottom right, #C5DEC6, #587559);
-} */
 
 td.dead {
     background-color: transparent;
 }
 
 td.live {
-    background-color: black;
+    background-color: var(--tg-theme-bg-color);
+    filter: invert(100%);
 }

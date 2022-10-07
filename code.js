@@ -1,7 +1,8 @@
-var rows = 38;
-var cols = 100;
+var rows = 39;
+var cols = 35;
 
 const webApp = window.Telegram.WebApp;
+
 
 var playing = false;
 

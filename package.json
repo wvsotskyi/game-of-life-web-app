@@ -1,0 +1,20 @@
+{
+    "name": "game-of-life-web-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "code.js",
+    "engines": {
+        "node": "16.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wvsotskyi/game-of-life-web-app.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/wvsotskyi/game-of-life-web-app/issues"
+    },
+    "homepage": "https://github.com/wvsotskyi/game-of-life-web-app#readme"
+}

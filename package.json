@@ -20,5 +20,8 @@
     "bugs": {
         "url": "https://github.com/wvsotskyi/game-of-life-web-app/issues"
     },
-    "homepage": "https://github.com/wvsotskyi/game-of-life-web-app#readme"
+    "homepage": "https://github.com/wvsotskyi/game-of-life-web-app#readme",
+    "dependencies": {
+        "express": "^4.18.1"
+    }
 }

@@ -1,4 +1,3 @@
-ocument.addEventListener("load", function() {
     var rows = 39;
     var cols = 35;
 
@@ -238,9 +237,8 @@ ocument.addEventListener("load", function() {
         return count;
     }
 
-});
 
-window.onload = initialize;
+    window.onload = initialize;
 
 
-// Start everything
+    // Start everything

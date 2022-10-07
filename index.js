@@ -29,5 +29,5 @@ http.createServer(async(request, response) => {
     const mimeType = MIME_TYPES[file.ext] || MIME_TYPES.default;
     response.writeHead(200, { 'Content-Type': mimeType });
     file.stream.pipe(response);
-    console.log(`${request.method} ${request.url} ${statusCode}`);
+    response.end(`${request.method} ${request.url} ${statusCode}`);
 }).listen(process.env.PORT);

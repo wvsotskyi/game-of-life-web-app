@@ -4,12 +4,9 @@ import * as path from 'node:path';
 
 import express from "express";
 
-const path = require('path');
-const express = require('express');
-
 const app = express();
 
-const port = process.env.PORT || 3338;
+const port = process.env.PORT;
 
 app.use('/', express.static(path.join(__dirname, 'html')));
 

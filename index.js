@@ -1,7 +1,6 @@
-const http = require('http');
-const cloud = require('cloud');
+const http = require('node:http');
 
-http.createServer(function(request, response) {
-    response.writeHeader(200, { "Content-Type": "text/html" });
+http.createServer(function (request, response) {
+    response.writeHead(200, { "Content-Type": "text/html" });
     response.end(`html`);
 }).listen(process.env.PORT);

@@ -2,7 +2,7 @@ import * as http from 'node:http';
 import * as fs from `node:fs`;
 
 
-fs.readFile('./index.html', function(err, html) {
+fs.readFile('/index.html', function(err, html) {
     if (err) {
         throw err;
     }

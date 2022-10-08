@@ -1,5 +1,6 @@
 # Game of life telegram Web App
 
 deployed at heroku:  https://game-of-life-web-app.herokuapp.com/
-but js doesnt load on page.
-Probably because of ``fs.readFile('./index.html'...``, but css still loads.
+
+doesn't work outside of telegram web app, because of using telegram theme colors ``var(--tg-theme-bg-color)``
+`

@@ -28,7 +28,6 @@ td.dead {
 }
 
 td.live {
-    /* background-color: var(--tg-theme-bg-color); */
-    background-color: red;
+    background-color: var(--tg-theme-bg-color);
     filter: invert(100%);
 }
